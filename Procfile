@@ -1,1 +1,1 @@
-web: gunicorn global_pass.wsgi:application
+web: gunicorn --pythonpath global_pass global_pass.wsgi:application
