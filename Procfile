@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath global_pass global_pass.wsgi:application
+web: python manage.py migrate && gunicorn global_pass.wsgi
