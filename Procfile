@@ -1,1 +1,1 @@
-web: gunicorn global_pass.wsgi
+web: gunicorn global_pass.wsgi:application
